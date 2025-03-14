@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css">
+    <script src="js/gallery.js"></script>
+</head>
+<body onload="initializeGallery()">
+    <div class="main-container">
+        <div class="container">
+            <!-- Left Sidebar -->
+            <div class="sidebar">
+                <img class="preview" alt="Tesseract Theory" src="img/1st.png" onmouseover="upDate(this)" onmouseout="unDo()" 
+                    onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+                <img class="preview" alt="Fractal Sound" src="img/2nd.png" onmouseover="upDate(this)" onmouseout="unDo()" 
+                    onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+                <img class="preview" alt="Odd Time Signatures" src="img/3rd.png" onmouseover="upDate(this)" onmouseout="unDo()" 
+                    onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+                    <img class="preview" alt="Odd Time Signatures" src="img/4th.png" onmouseover="upDate(this)" onmouseout="unDo()" 
+                    onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+            </div>
+
+            <!-- Main Image Display -->
+            <div id="image">Hover over an image to display here.</div>
+
+            <!-- Right Sidebar -->
+            <div class="sidebar">
+                <img class="preview" alt="Broken Polyrhythms" src="img/5th.png" onmouseover="upDate(this)" onmouseout="unDo()" 
+                    onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+                <img class="preview" alt="Syncopated Silence" src="img/6th.png" onmouseover="upDate(this)" onmouseout="unDo()" 
+                    onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+                <img class="preview" alt="Theoretical Jazz Fusion" src="img/7th.png" onmouseover="upDate(this)" onmouseout="unDo()" 
+                    onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+                    <img class="preview" alt="Theoretical Jazz Fusion" src="img/8th.png" onmouseover="upDate(this)" onmouseout="unDo()" 
+                    onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
