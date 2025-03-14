@@ -20,7 +20,7 @@ function upDate(previewPic) {
     imageDiv.style.backgroundPosition = "center";
     imageDiv.style.backgroundRepeat = "no-repeat";
 
-    console.log(`Updated to: ${previewPic.alt}`); // ✅ Debugging log
+    console.log(`Updated to: ${previewPic.alt}`); // Debugging log
 }
 
 function unDo() {
@@ -35,10 +35,10 @@ function unDo() {
     // Reset height (optional: can adjust to default height)
     imageDiv.style.height = "650px"; // Default size from CSS
 
-    console.log("Reset image display."); // ✅ Debugging log
+    console.log("Reset image display."); // Debugging log
 }
 
-// ✅ Function to add tab focus attributes on page load
+// Function to add tab focus attributes on page load
 function initializeGallery() {
     let images = document.querySelectorAll(".preview");
     for (let i = 0; i < images.length; i++) {
